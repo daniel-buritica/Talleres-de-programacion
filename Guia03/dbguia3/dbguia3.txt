@@ -1,0 +1,12 @@
+--drop table if exists registeruser;  
+create table registeruser (
+id serial,
+name varchar,
+last_name varchar,
+email varchar,
+user_name varchar,
+passwordd varchar
+)
+
+select * 
+from registeruser;
